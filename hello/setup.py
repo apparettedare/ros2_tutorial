@@ -29,6 +29,7 @@ setup(
             "client = hello.client:main",
             "server = hello.server:main",
             "action_client = hello.action_client:main",
+            "action_client_cancel = hello.action_client_cancel:main",
             "action_server = hello.action_server:main",
         ],
     },

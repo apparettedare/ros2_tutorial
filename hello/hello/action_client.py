@@ -13,7 +13,7 @@ class MyClient(Node):
     # リクエストの送信
     def send_request(self):
         # メッセージの生成
-        self.a = 1
+        self.a = 14
         self.b = 2
         goal = AddTwoInts.Goal()
         goal.a = self.a
